@@ -32,7 +32,7 @@ class MyDocument extends Document<MyDocumentProps> {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="ja">
         <Head />
         <script
           type="text/javascript"

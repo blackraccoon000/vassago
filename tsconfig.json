@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "tailwind.config.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "o11y"]
 }

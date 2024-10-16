@@ -2,9 +2,9 @@
   "name": "vassago",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "nodenv -E .env --exec \"next dev\"",
+    "dev2": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -26,6 +26,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.13",
     "node-env-run": "^4.0.2",
